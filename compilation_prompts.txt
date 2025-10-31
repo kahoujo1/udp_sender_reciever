@@ -1,0 +1,2 @@
+g++ src/udp_module.cpp src/reciever.cpp -Iinclude -lcrypto -o reciever
+g++ src/udp_module.cpp src/sender.cpp -Iinclude -lcrypto -o sender
